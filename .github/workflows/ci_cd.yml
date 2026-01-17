@@ -30,7 +30,7 @@ env:
   ECR_REPOSITORY: express-t2s-app-repo
   ECS_CLUSTER: express-t2s-app-cluster
   ECS_SERVICE: express-t2s-app-service
-  AWS_OIDC_ROLE_ARN: arn:aws:iam::730335276920:role/t2s-gha-ecs-deploy-prod
+  AWS_OIDC_ROLE_ARN: arn:aws:iam::682023285040:role/t2s-gha-ecs-deploy-prod
   TF_VAR_aws_region: us-east-1
   TF_VAR_repo_name: express-t2s-app-repo
   TF_VAR_bucket_name: express-t2s-app-terraform-state-dev
